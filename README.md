@@ -9,10 +9,10 @@ Training YOLOv5 and Detectron2 on the custom car dataset: Running the training s
 Validating the trained YOLOv5 and Detectron2 models: Running the validation scripts with the necessary parameters, such as dataset configuration files, trained weights, image size, IOU threshold, and whether to use half-precision inference.
 By following these steps, the project aims to achieve better-performing car detection models fine-tuned for the specific use case.
 
-Usage
+## Usage
 To use this project, clone the repository and follow the instructions in the Jupyter notebook to prepare the custom dataset, train the YOLOv5 and Detectron2 models, and validate their performance.
 
-Requirements
+## Requirements
 This project requires Python 3.6 or later and the following Python libraries:
 
 YOLOv5
@@ -22,5 +22,9 @@ NumPy
 Pandas
 Additionally, a GPU with CUDA support is recommended for faster training and inference.
 
-Acknowledgements
+To install the required libraries, you can use the following command:
+
+pip install -r requirements.txt
+
+## Acknowledgements
 This project is based on the YOLOv5 repository by Ultralytics and the Detectron2 repository by Facebook AI Research (FAIR).
