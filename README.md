@@ -1,6 +1,6 @@
 This repository contains a project that demonstrates how to train object detection models for car detection using YOLOv5 and Detectron2. The main goal is to fine-tune pre-trained YOLOv5 and Detectron2 models on a custom dataset of car images to improve their performance for detecting cars in images specific to the use case.
 
-Overview
+# Overview
 The project is organized into the following steps:
 
 Preparation of the custom car dataset: Splitting the dataset into training and validation sets, and converting the annotations into formats suitable for use with YOLOv5 and Detectron2.
