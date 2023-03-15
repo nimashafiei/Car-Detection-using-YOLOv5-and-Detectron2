@@ -15,16 +15,17 @@ To use this project, clone the repository and follow the instructions in the Jup
 ## Requirements
 This project requires Python 3.6 or later and the following Python libraries:
 
-YOLOv5
-Detectron2
-OpenCV
-NumPy
-Pandas
+- YOLOv5
+- Detectron2
+- OpenCV
+- NumPy
+- Pandas
 Additionally, a GPU with CUDA support is recommended for faster training and inference.
 
 To install the required libraries, you can use the following command:
 
+```bash
 pip install -r requirements.txt
-
+```
 ## Acknowledgements
 This project is based on the YOLOv5 repository by Ultralytics and the Detectron2 repository by Facebook AI Research (FAIR).
